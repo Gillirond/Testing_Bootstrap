@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/bootswatch-bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="author" content="IgorBogunkov">
+    <title>Contact - Hobbit movie production blogs</title>
+</head>
+<body>
+<div id="page">
+    <nav id="menubar" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle"
+                        data-toggle="collapse"
+                        data-target="#collapsediv"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
+                <div id="logo">
+                    <a class="navbar-brand" href=".">Hobbit movie production blogs</a>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse" id="collapsediv">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav"><a href="Index.html" class="nav-link">Home</a></li>
+                    <li class="nav"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav active"><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="bodysection" class="container">
+        <div class="">
+        <form>
+            <div class="form-group">
+                <label for="nameInput">Your Name</label>
+                <input type="text"
+                       name="nameInput"
+                       class="form-control"
+                       placeholder="Your Name"/>
+            </div>
+            <div class="form-group">
+                <label for="emailInput">Email</label>
+                <input type="email"
+                       name="emailInput"
+                       class="form-control"
+                       placeholder="Your Email" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">Favorite</label>
+                <div class="btn-group" data-toggle="buttons">
+                    <label class="btn btn-success"><input type="radio">An Unexpected Journey</label>
+                    <label class="btn btn-success"><input type="radio">The Desolation of Smaug</label>
+                    <label class="btn btn-success"><input type="radio">The Battle of the Five Armies</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Reason</label>
+                <select class="form-control">
+                    <option>Need support</option>
+                    <option>Bug issue</option>
+                    <option>Advices and else</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Message</label>
+                <textarea cols="40" rows="6" class="form-control" placeholder="The Message"></textarea>
+            </div>
+            <input type="submit" value="Submit" class="button btn-success"/>
+        </form>
+        </div>
+    </section>
+    <footer class="container">
+        <p>@ All rights belong to <a href="https://www.warnerbros.com/studio/divisions/new-line-cinema">New Line Cinema</a>, <a href="http://www.zaentz.com/middle-earth-enterprises.html">Middle-Earth Enterprizes</a> and <a href="http://www.zaentz.com/">Saul Zaentz Company</a>.</p>
+        <p>&nbsp; &nbsp; Made by Igor Bogunkov</p>
+    </footer>
+</div>
+</body>
+</html>
